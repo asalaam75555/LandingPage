@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.header,.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #032d03;
+    padding: 5px 30px;
+    color: #f9faf8;
+}
+.footer {
+    align-items: center;
+    padding: 5px 30px;
+}
+.logo-links, .header-content {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    gap: 20px;
+}
+.logo-links {
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#hero-main-text{
+    font-weight: 900;
+    font-size: 48px;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left-side-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.right-side-content {
+    flex: 1;
+    display: flex;
+}
+p{
+    margin: 5px 0px;
+}
+button {
+    border-radius: 8px;
+    width: 120px;
+    padding: 5px;
+    background-color: #06b053;
+    color: #f9faf8;
+    border-style: none;
+}
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 60px;
+}
+.eg-divs {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+.img-divs{
+    flex: 1;
+    flex-direction: column;
+}
+.div-in{
+    width: 130px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    border: solid #06b053;
+    border-radius: 4px;
+}
+.information-header {
+    color: #1f2937;
+    font-weight:900;
+    font-size: 36px;
+}
+.content-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+}
+.testimonial{
+    color: #1f2937;
+    font-style:  italic;
+    font-size: 36px;
+    font-weight: light;
+    padding: 0px 60px;
+}
+.quote-by{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 60px;
+}
+.content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-card{
+    background-color: #06b053;
+    margin:  30px auto; 
+    display: flex;
+    padding: 30px 60px;
+    border-radius: 4px;
+    align-items: center;
+    gap: 30px;
+}
+.logo,.card-title{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+}
+.card-content{
+    color: #e5e7eb
+}
+.sign {
+    border: solid #e5e7eb;
+    border-radius: 8px;
+}
